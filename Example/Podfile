@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MLUtil_Example' do
+  pod 'MLUtil', :path => '../'
+
+  target 'MLUtil_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
