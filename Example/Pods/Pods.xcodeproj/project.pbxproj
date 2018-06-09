@@ -12,7 +12,7 @@
 		69A04CFEA71248CE4569DEE72EEDCA67 /* Pods-MLUtil_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4482BD9D2AD8697C8E3E18844B02BAF6 /* Pods-MLUtil_Example-dummy.m */; };
 		7AB84F05AA4C20EA1D054273D70E7401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		88BD2940AA6FE38E99998C473286125C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		8AC7514520CC23CF007B4190 /* SRCNN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7514420CC23CF007B4190 /* SRCNN.mlmodel */; };
+		8AC7514720CC27C9007B4190 /* SRCNN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7514620CC27C9007B4190 /* SRCNN.mlmodel */; };
 		A0334BEA2E66AA80249BB9EA3B76F452 /* MLUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5316D582BC818FBEBD588463F9FDBD87 /* MLUtil-dummy.m */; };
 		C3B884CF679B3222EBD5AC184924F31F /* Pods-MLUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0D376AE06C9E87E6F1460D125A6772 /* Pods-MLUtil_Tests-dummy.m */; };
 		E893667C95684E1865CDCA087E0EADBD /* Pods-MLUtil_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C200B15A971BDEBB42B70B8DA169EE6F /* Pods-MLUtil_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -60,7 +60,7 @@
 		81A9F3DC3D9F1FFCB0A5EDBA70B2CFB4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		857AE0F084570C3D127825D98DD94F1C /* MLUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MLUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		87E2CB0F1A7AE3DC5507273ADDD68364 /* Pods_MLUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AC7514420CC23CF007B4190 /* SRCNN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SRCNN.mlmodel; sourceTree = "<group>"; };
+		8AC7514620CC27C9007B4190 /* SRCNN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SRCNN.mlmodel; path = MLUtil/Assets/SRCNN.mlmodel; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99B0C5B987FE0E80B553D6E8DDD692F9 /* MLUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MLUtil.swift; path = MLUtil/Classes/MLUtil.swift; sourceTree = "<group>"; };
 		A4A1083DDC8430E8BC1F0EB49744E673 /* Pods-MLUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MLUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -181,7 +181,7 @@
 		BC1D287B5277EF8EA882B6D447D23ABF /* MLUtil */ = {
 			isa = PBXGroup;
 			children = (
-				8AC7514420CC23CF007B4190 /* SRCNN.mlmodel */,
+				8AC7514620CC27C9007B4190 /* SRCNN.mlmodel */,
 				99B0C5B987FE0E80B553D6E8DDD692F9 /* MLUtil.swift */,
 				977B3565490C618AAD314583931D9BC8 /* Pod */,
 				C5E3CCD3F7AE8F0AE599D98BCEBA9399 /* Support Files */,
@@ -355,7 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0334BEA2E66AA80249BB9EA3B76F452 /* MLUtil-dummy.m in Sources */,
-				8AC7514520CC23CF007B4190 /* SRCNN.mlmodel in Sources */,
+				8AC7514720CC27C9007B4190 /* SRCNN.mlmodel in Sources */,
 				57113207C425A74B7B06C156C16AFD2C /* MLUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +524,7 @@
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				COREML_CODEGEN_LANGUAGE = Swift;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -620,6 +621,7 @@
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				COREML_CODEGEN_LANGUAGE = Swift;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
