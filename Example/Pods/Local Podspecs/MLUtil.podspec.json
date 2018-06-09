@@ -1,0 +1,26 @@
+{
+  "name": "MLUtil",
+  "version": "0.1.0",
+  "summary": "this is test repo",
+  "swift_version": "4.1",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kenmaz/MLUtil",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kenmaz": "kentaro.matsumae@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/kenmaz/MLUtil.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MLUtil/Classes/**/*",
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.1"
+  }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MLUtil (0.1.0)
+
+DEPENDENCIES:
+  - MLUtil (from `../`)
+
+EXTERNAL SOURCES:
+  MLUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MLUtil: 037bb7b724e2a88aebfde8f383633dc4768b4af3
+
+PODFILE CHECKSUM: c398c90fee2a25cd256420f744ec92eea13b0a1a
+
+COCOAPODS: 1.5.3
