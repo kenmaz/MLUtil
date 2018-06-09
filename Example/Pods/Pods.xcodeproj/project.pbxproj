@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1567059951CF7415D8A09976EDD66BEB /* MLUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MLUtil.framework; path = MLUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1567059951CF7415D8A09976EDD66BEB /* MLUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MLUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD17C1FEAC14CCCCCC44C63B531DE9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2008FD671594D293036AC37E71989B15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25B581E700ACFB8B196A2F5F026FEF8C /* MLUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MLUtil.modulemap; sourceTree = "<group>"; };
@@ -52,17 +52,17 @@
 		49815497E39F647820CDBDBD1E884FB7 /* Pods-MLUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MLUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5316D582BC818FBEBD588463F9FDBD87 /* MLUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MLUtil-dummy.m"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5E9EF5379AD2299D81014CDF38664A30 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		668711DC5B61C4D855CA8EB20053BC9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5E9EF5379AD2299D81014CDF38664A30 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		668711DC5B61C4D855CA8EB20053BC9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		788FD72CF7E3907CA3D5FF3302EBCCC7 /* Pods-MLUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MLUtil_Example.modulemap"; sourceTree = "<group>"; };
 		7B3C1C36429E2E97347BE09FBF99DD25 /* MLUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLUtil-umbrella.h"; sourceTree = "<group>"; };
 		81A9F3DC3D9F1FFCB0A5EDBA70B2CFB4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		857AE0F084570C3D127825D98DD94F1C /* MLUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MLUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		87E2CB0F1A7AE3DC5507273ADDD68364 /* Pods_MLUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MLUtil_Example.framework; path = "Pods-MLUtil_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		857AE0F084570C3D127825D98DD94F1C /* MLUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MLUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		87E2CB0F1A7AE3DC5507273ADDD68364 /* Pods_MLUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99B0C5B987FE0E80B553D6E8DDD692F9 /* MLUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MLUtil.swift; path = MLUtil/Classes/MLUtil.swift; sourceTree = "<group>"; };
 		A4A1083DDC8430E8BC1F0EB49744E673 /* Pods-MLUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MLUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BEE4B636F479516D6778D88634C14274 /* Pods_MLUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MLUtil_Tests.framework; path = "Pods-MLUtil_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE4B636F479516D6778D88634C14274 /* Pods_MLUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C200B15A971BDEBB42B70B8DA169EE6F /* Pods-MLUtil_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MLUtil_Example-umbrella.h"; sourceTree = "<group>"; };
 		C8DE3A7819358270F63387F8FAEA1C5C /* Pods-MLUtil_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MLUtil_Example-resources.sh"; sourceTree = "<group>"; };
 		CA0D376AE06C9E87E6F1460D125A6772 /* Pods-MLUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MLUtil_Tests-dummy.m"; sourceTree = "<group>"; };
